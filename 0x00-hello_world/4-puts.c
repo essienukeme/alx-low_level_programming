@@ -1,8 +1,9 @@
-#!/bin/ba/**
-	   * main - Entry point
-	   *
-	   * Return: Always 0 (Success)
-	   */
+#!/bin/bash
+/**
+ * main - Entry point
+ *
+ * Return: Always 0 (Success)
+ */
 int main(void)
 {
 	puts("\"Programming is like a building a multilingual puzzle");

@@ -3,7 +3,7 @@
 #include <stdio.h>
 
 /**
- * main - Prints to screen
+ * main - Prints to the standard output
  *
  *Return: Always 0 (Success)
  */

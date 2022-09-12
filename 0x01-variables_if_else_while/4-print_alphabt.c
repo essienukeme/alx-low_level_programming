@@ -1,25 +1,21 @@
-#include<stdio.h>
-#include<stdlib.h>
+#include <stdio.h>
 
 /**
- * main - entry point
+ * main - print a-z /n using ASCII
  *
- * Declaration: 'The program's description'
- * Return: Always 0 (success)
+ * Return: Always 0 (Successful)
  */
-
 int main(void)
 {
-	char ch = 'a';
+	int i;
 
-	while (ch <= 'z')
+	for (i = 97; i <= 122; i++)
 	{
-		if (ch != 'e' && ch != 'q')
-		{
-			putchar(ch);
-		}
-		ch++;
+		putchar(i);
 	}
-	putchar('\n');
+	for (i = 65; i <= 90; i++)
+	{
+		putchar(i);
+	} putchar('\n');
 	return (0);
 }

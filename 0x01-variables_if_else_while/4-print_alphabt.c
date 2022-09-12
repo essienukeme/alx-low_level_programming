@@ -1,20 +1,24 @@
-#include <stdio.h>
-#include <stdlib.h>
-#include <time.h>
+#include<stdio.h>
+#include<stdlib.h>
 
 /**
- * main - lower case alphabets excluding q and e
+ * main - entry point
  *
- * Return: Always 0 (Success)
+ * Declaration: 'The program's description'
+ * Return: Always 0 (success)
  */
+
 int main(void)
 {
-	int i;
+	char ch = 'a';
 
-	for (i = 97; i <= 122; i++)
+	while (ch <= 'z')
 	{
-		if (!(i == 113 || i == 101))
-			putchar(i);
+		if (ch != 'e' && ch != 'q')
+		{
+			putchar(ch);
+		}
+		ch++;
 	}
 	putchar('\n');
 	return (0);

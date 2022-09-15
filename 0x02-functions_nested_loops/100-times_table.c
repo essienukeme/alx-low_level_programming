@@ -1,8 +1,8 @@
 #include "main.h"
 
 /**
- * print_times_table - Prints the multiplication table
- * @n: integer for which the multiplication table will be printed
+ * print_times_table - Prints times table
+ * @n: integer for which the times table will be printed
  *
  * Return: void
  */
@@ -48,4 +48,3 @@ void print_times_table(int n)
 		}
 	}
 }
-

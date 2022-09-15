@@ -1,1 +1,1 @@
-C is fun
+Debugging in C

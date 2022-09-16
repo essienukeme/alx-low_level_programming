@@ -3,8 +3,9 @@
 /**
  * more_numbers - Print 0 - 14 in 10 places /n
  *
- * Return: Always 0
+ * Return: void
  */
+
 void more_numbers(void)
 {
 	int i =0, j;

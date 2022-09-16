@@ -2,20 +2,24 @@
 
 /**
  * more_numbers - Print 0 - 14 in 10 places /n
+ *
  * Return: void
  */
 
 void more_numbers(void)
 {
-	int i =0, j;
+	int n1, n2;
 
-	while (i < 10)
+	for (n1 = 0; n1 < 10; n1++)
 	{
-		char *s = "01234567891011121314";
-
-		for (j = 0; j <= 19; j++)
-			_putchar(s[j]);
-		_putchar('\n');
-		i++;
+		for (n2 = 0; n2 <= 14; n2++)
+		{
+			if (n2 > 9)
+			{
+				putchar((n2 / 10) + '0');
+			}
+			putchar((n2 % 10) + '0');
+		}
+		putchar(10);
 	}
 }

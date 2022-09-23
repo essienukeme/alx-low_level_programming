@@ -4,7 +4,7 @@
  * print_number - Prints a given number
  * @n: number to be printed
  *
- * Return: Always 0
+ * Return: Null void
  */
 void print_number(int n)
 {

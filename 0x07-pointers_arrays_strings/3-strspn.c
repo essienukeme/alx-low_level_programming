@@ -1,27 +1,37 @@
 #include "main.h"
+#include <stdio.h>
 
 /**
- * _strspn - counts the number of bytes for a string contained in another string
- * @s: string to be searched
- * @accept: string to be searched for
+ * _strspn - return the length of a prefix subscript
+ * @s: the address for the string
+ * @accept: the string
  *
  * Return: number of bytes
  */
+
 unsigned int _strspn(char *s, char *accept)
 {
-	unsigned int count = 0, supposed_count = 0;
-	int i, j;
+	unsigned int len;
+	unsigned int i;
 
-	for (i = 0; s[i] != '\0'; i++)
+	len = 0;
+
+	while (*(s + len) != 0)
 	{
-		for (j = 0; accept[j] != '\0'; j++)
+		int flag = 0;
+
+		for (i = 0; *(accept + i) != 0; i++)
 		{
-			if (s[i] == accept[j])
-				count++;
+			if (*(s + len) == *(accept + i))
+			{
+				len++;
+				flag = 1;
+			}
 		}
-		supposed_count++;
-		if (count == 0 || count != supposed_count)
+		if (flag == 0)
+		{
 			break;
+		}
 	}
-	return (count);
+	return (len);
 }

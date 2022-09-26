@@ -1,15 +1,13 @@
 #include "main.h"
-#include <stdio.h>
 
 /**
- * _memset: fill the memory
- * @b: the constant to be passed
- * @s: the address of the memory area
- * @n: the number of bytes of the memory
+ * _memset - Fills the memory
+ * @s: This is the buffer to be filled
+ * @b: This is the char that will be used to fill buffer
+ * @n: This is the no of bytes to fill in the memory array of s
  *
- * Return: The area pointed by s
+ * Return: a pointer to the memory area s
  */
-
 char *_memset(char *s, char b, unsigned int n)
 {
 	unsigned int i;

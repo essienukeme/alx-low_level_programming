@@ -42,7 +42,7 @@ int p1(char *s, int l)
  * is_palindrome - palindrome
  * @s: pointer to string
  *
- * Return: 1 if palindrome, 0 if otherwise
+ * Return: 1 if, 0 if otherwise
  */
 
 int is_palindrome(char *s)

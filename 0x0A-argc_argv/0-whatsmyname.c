@@ -4,7 +4,6 @@
  * main - prints its name, followed by new line
  * @argc: argument count
  * @argv: arguments
- *
  * Return: 0
  */
 

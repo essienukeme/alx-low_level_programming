@@ -5,7 +5,7 @@
  * a listint_t linked list.
  * @head: A pointer to the head of the listint_t list.
  *
- * Return: the address of the node where the loop start, 
+ * Return: the address of the node where the loop start,
  * NULL if there is no loop
  */
 
